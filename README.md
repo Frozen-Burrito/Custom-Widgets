@@ -1,15 +1,22 @@
-# widgets_demo
+# Flutter Custom Widgets
 
-A new Flutter project.
+A library of customizable and reusable widgets, that can be easily implemented on any Flutter app.
+
+> In development
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project contains a demo app, were all the custom widgets are used. You can download and run the app or just grab the **widgets** folder, located in "lib/src/".
 
-A few resources to get you started if this is your first Flutter project:
+## What I've Learned
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+I practiced the creation of a default flutter app and the usage of custom widgets. 
+
+I've also learned: 
+* Custom painter
+* Animated Builder
+
+## Flutter Documentation
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,

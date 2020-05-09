@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
-class DemoPage extends StatelessWidget {
+import 'package:widgets_demo/src/widgets/radial_progress.dart';
 
+class DemoPage extends StatefulWidget {
+
+  @override
+  _DemoPageState createState() => _DemoPageState();
+}
+
+class _DemoPageState extends State<DemoPage> {
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -12,12 +19,13 @@ class DemoPage extends StatelessWidget {
         children: <Widget>[
           
           Container(
+            width: 150,
+            height: 150,
 
-            width: double.infinity,
-            height: 200.0,
-            color: Colors.grey,
-            child: Center(child: Text('Widget')),
+            child: RadialProgress(progress: 50.0, primaryColor: Colors.orange,)
           )
+
+          
         ],
       ),
     );
